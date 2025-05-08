@@ -20,7 +20,6 @@ class _State extends State<ExampleProviderScreen> {
         title: const Text("Flutter Provider"),
       ),
       body:  Center(
-
         //access the count variable here
         child: Text(countProvider.count.toString() ,style:
         const TextStyle(fontSize: 50),),
